@@ -4,14 +4,61 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  --background: #f8fbff;
+  --foreground: #0f172a;
+  --primary: #42a7f5;
+  --primary-dark: #1d8fe6;
+  --secondary: #dff1ff;
+  --border: rgba(66, 167, 245, 0.18);
+  --card: rgba(255, 255, 255, 0.78);
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background: #ffffff;
-  color: #111827;
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(66, 167, 245, 0.16), transparent 28%),
+    radial-gradient(circle at top right, rgba(125, 211, 252, 0.18), transparent 24%),
+    linear-gradient(180deg, #f8fbff 0%, #eef7ff 55%, #ffffff 100%);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .gradient-text {
-  background: linear-gradient(90deg, #42a7f5, #7cc4ff);
+  background: linear-gradient(135deg, #1d8fe6 0%, #42a7f5 45%, #8dd3ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.section-shell {
+  position: relative;
+}
+
+.glass-card {
+  background: var(--card);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--border);
+  box-shadow: 0 12px 40px rgba(32, 84, 145, 0.08);
+}
+
+.soft-grid {
+  background-image:
+    linear-gradient(rgba(66, 167, 245, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(66, 167, 245, 0.06) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.section-fade {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.45) 100%);
 }
