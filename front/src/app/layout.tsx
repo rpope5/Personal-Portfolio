@@ -1,18 +1,26 @@
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-export const metadata = {
-  title: "Robert Pope II",
-  description: "Portfolio Website",
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  title: "Robert Pope II | Portfolio",
+  description:
+    "Portfolio website for Robert Pope II featuring professional experience, projects, skills, and contact information.",
 };
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
