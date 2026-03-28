@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "Robert Pope II | Portfolio",
   description:
     "Portfolio website for Robert Pope II featuring professional experience, projects, skills, and contact information.",
+    icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
