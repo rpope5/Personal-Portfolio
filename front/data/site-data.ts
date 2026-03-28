@@ -14,6 +14,30 @@ export const siteData = {
     resume: "/resume/robert-pope-resume.pdf",
   },
 
+  education: {
+    school: "Ashland University",
+    location: "Ashland, OH",
+    graduation: "Anticipated May 2026",
+    degree: "B.S. Computer Science",
+    minors: ["Cybersecurity", "Management Information Systems"],
+    gpa: "3.6 / 4.0",
+    honors: "Dean’s List (5 semesters)",
+    organizations: [
+      {
+        name: "Association for Computing Machinery (ACM)",
+        role: "President",
+      },
+      {
+        name: "Upsilon Pi Epsilon (UPE)",
+        role: "Vice President",
+      },
+      {
+        name: "Student-Athlete Advisory Committee (SAAC)",
+        role: "Esports Representative",
+      },
+    ],
+  },
+
   experience: [
     {
       company: "Mississippi State University",
