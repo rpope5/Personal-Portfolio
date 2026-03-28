@@ -3,7 +3,7 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import ThemeToggle from "./ThemeToggle";
-import Image from "next/image";
+
 
 const navItems = [
   { label: "Experience", href: "#experience" },

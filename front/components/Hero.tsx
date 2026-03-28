@@ -92,7 +92,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-to-br from-sky-200/30 via-white/40 to-sky-400/20 dark:from-sky-900/30 dark:via-slate-900/20 dark:to-sky-700/20" />
             <div className="relative overflow-hidden rounded-[1.5rem] border border-white/70 dark:border-slate-800">
               <Image
-                src="/assets/headshot.jpg"
+                src="/assets/headshot2.jpg"
                 alt="Robert Pope II headshot"
                 width={520}
                 height={620}
