@@ -41,10 +41,10 @@ export const siteData = {
   projects: [
     {
       slug: "esports-recruit-hub",
-      name: "Esports Recruit Hub",
+      name: "Esports Recruit Hub (Coming Soon)",
       description:
         "A full-stack recruiting platform designed for esports programs, built with modern web tooling and a coach-focused workflow.",
-      href: "/projects/esports-recruit-hub",
+      href: "https://github.com/rpope5/AU-Esports-Web-Refresh",
       tags: ["Next.js", "FastAPI", "SQLite", "UI/UX"],
       overview:
         "This project was built to help esports programs collect recruit data, review applicants, and manage coach-side workflows in a cleaner system.",
@@ -59,7 +59,7 @@ export const siteData = {
       name: "DevTrackr",
       description:
         "A productivity and tracking platform centered around goals, tasks, and workflow visibility.",
-      href: "/projects/devtrackr",
+      href: "https://devtrackr.xyz/",
       tags: ["React", "FastAPI", "SQL", "REST API"],
       overview:
         "DevTrackr was designed as a clean system for tracking goals and tasks while practicing full-stack architecture and API design.",
@@ -71,16 +71,16 @@ export const siteData = {
     },
   ],
 
-  skills: [
-    "Java",
-    "Python",
-    "React",
-    "Next.js",
-    "FastAPI",
-    "SQL",
-    "Tailwind CSS",
-    "REST APIs",
-    "Git",
-    "Machine Learning",
+    skills: [
+    { name: "Java", icon: "coffee" },
+    { name: "Python", icon: "code2" },
+    { name: "React", icon: "atom" },
+    { name: "Next.js", icon: "layers3" },
+    { name: "FastAPI", icon: "server" },
+    { name: "SQL", icon: "database" },
+    { name: "Tailwind CSS", icon: "wind" },
+    { name: "REST APIs", icon: "workflow" },
+    { name: "Git", icon: "gitBranch" },
+    { name: "Machine Learning", icon: "brain" },
   ],
 };
